@@ -1,0 +1,23 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Starting with REST",
+  "homepage": "https://github.com/aazmeer-official/rest#readme",
+  "bugs": {
+    "url": "https://github.com/aazmeer-official/rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aazmeer-official/rest.git"
+  },
+  "license": "ISC",
+  "author": "Muhammad Aazmeer",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
