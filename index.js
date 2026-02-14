@@ -72,6 +72,7 @@ app.delete("/posts/:id",(req,res)=>{
     let post = posts.find((p)=> id === p.id)
     let idx = posts.indexOf(post)
     posts.splice(idx,1)
+    // post = posts.filter((p)=> id != p.id) // Mam's Logic
     res.redirect("/posts")
 })
 
